@@ -3,15 +3,15 @@ myself: Kunal Kushwaha
 fruit: "apple"
 job: 'swe'
 
-bio: |
-hey my name is kunal kushwaha.
-i am a very nice dude.
+bio: | 
+ hey my name is kunal kushwaha.
+ i am a very nice dude.
 
 # write a single line in multiple lines
 message: >
-this will
-all be
-in one single line
+ this will 
+ all be 
+ in one single lines.
 
 # same as
 message: !!str this will all be in one single line
