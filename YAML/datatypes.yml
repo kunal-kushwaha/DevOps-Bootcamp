@@ -18,7 +18,7 @@ message: !!str this will all be in one single line
 
 number: 5473
 marks: 98.76
-booleanValue: !!bool False # n, N, false, False, FALSE
+booleanValue: !!bool NO # n, N, false, False, FALSE
 # same for true -> yes, y, Y
 
 # specify the type
