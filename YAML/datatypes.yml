@@ -18,19 +18,19 @@ message: !!str this will all be in one single line
 
 number: 5473
 marks: 98.76
-booleanValue: !!bool No # n, N, false, False, FALSE
+booleanValue: !!bool False # n, N, false, False, FALSE
 # same for true -> yes, y, Y
 
 # specify the type
 zero: !!int 0
 positiveNum: !!int 45
 negativeNum: !!int -45
-binaryNum: !!int 0b11001
+binaryNum: !!int 011001
 octalNum: !!int 06574
 hexa: !!int 0x45
 commaValue: !!int +540_000 # 540,000
 exponential numbers: 6.023E56
-
+---
 # floating point numbers
 marks: !!float 56.89
 infinite: !!float .inf
