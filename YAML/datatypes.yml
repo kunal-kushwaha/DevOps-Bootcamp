@@ -25,7 +25,7 @@ booleanValue: !!bool No # n, N, false, False, FALSE
 zero: !!int 0
 positiveNum: !!int 45
 negativeNum: !!int -45
-binaryNum: !!int 011001
+binaryNum: !!int 0b11001
 octalNum: !!int 06574
 hexa: !!int 0x45
 commaValue: !!int +540_000 # 540,000
