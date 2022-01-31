@@ -11,7 +11,7 @@ bio: |
 message: >
  this will 
  all be 
- in one single lines.
+ in one single line.
 
 # same as
 message: !!str this will all be in one single line
