@@ -8,7 +8,7 @@
 | ls -l </br> [To see all files & directories] | Get-ChildItem |
 | cat > </br> [To edit] | vim |
 | cat file.txt two.txt > total.txt | cat file.txt, two.txt > total.txt |
-| cat file.txt | tr a-z A-Z > upper.txt | (cat 'file.txt').ToUpper() > upper.txt |
+| cat file.txt \| tr a-z A-Z > upper.txt | (cat 'file.txt').ToUpper() > upper.txt |
 | \ </br> [For new line] | ` |
 | mkdir random </br> mkdir random/hello </br> [we need to create random first here] | mkdir random/hello </br> [only one line to execute, no need to create random first, it can be created together] |
 | touch | [you need to define touch] </br> function touch { </br> Param( </br> [Parameter(Mandatory=$true)] </br> [string]$Path </br> ) </br> if (Test-Path -LiteralPath $Path) { </br> (Get-Item -Path $Path).LastWriteTime = Get-Date </br> } </br> else { </br> New-Item -Type File -Path $Path </br> } </br> } |
