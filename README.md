@@ -2,7 +2,7 @@
 
 ![DevOps-Bootcamp](https://socialify.git.ci/kunal-kushwaha/DevOps-Bootcamp/image?description=1&font=Inter&language=1&owner=1&pattern=Charlie%20Brown&theme=Dark)
 
-- <a href="https://www.youtube.com/KunalKushwaha?sub_confirmation=1" style="background-color:#FFFFFF;color:#000000;text-decoration:none">▶ Subscribe to our channel </a>
+- <a href="https://www.youtube.com/KunalKushwaha?sub_confirmation=1" style="background-color:#FFFFFF;color:#000000;text-decoration:none">▶ Subscribe to our Youtube channel</a>
 
 - <a href="https://www.commclassroom.org/devops" style="background-color:#FFFFFF;color:#000000;text-decoration:none">🧑‍💻 Course website</a>
  
