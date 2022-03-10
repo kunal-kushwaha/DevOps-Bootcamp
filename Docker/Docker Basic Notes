@@ -1,0 +1,85 @@
+INTRODUCTION TO DOCKER
+
+Docker is a container program that allows you to build. test and deploy application and even enables developer to package applications into container.
+
+ADVANTAGES OF USING DOCKER
+
+Fast, consistent delivery of your applications
+Responsive deployment and scaling
+Running more workloads on the same hardware
+
+DOCKER RUNTIME
+
+It basically allows us to start and stop the container
+
+There are various types of Docker runtimes available but for now we will discuss here about runc and containerd
+
+runc - It is used by or you can say operated by containerd and is basically used to start and stop the container.
+containerd - It manages complete container life cycle. It even do image transfer/storage and container execution, supervision and stuffs.
+
+DOCKER ARCHITECTURE
+
+Docker uses a client-server architecture.
+The Docker client talks to the Docker daemon, which manages docker objects such as images, networks, container and volumes.
+
+DOCKER ENGINE
+
+Client server technology that builds and run the container using Docker's container
+It comprises of Docker Daemon, Rest API, and CLI (client)
+CLI Talks to Docker daemon through API.
+
+DOCKER DAEMON
+
+It manages docker objects such as images, networks, container and volumes
+
+DOCKER ORCHESTRATION
+
+It is as set of technologies for managing docker at larger scales
+
+DOCKER IMAGE
+
+Docker image is a file comprised of multiple layers, used to execute code in Docker container
+
+DOCKER FILE
+
+It is a text file that contains all the commands a user could run to create a image
+It contains all the instructions needed by docker to build an image
+
+Basically you can say is
+
+A docker file is a recipe for creating docker images
+A docker images get build by making a docker commands.
+A docker container is a running instance of docker images.
+
+OPEN CONTAINER INITIATIVE (OCI)
+
+It is an Linux foundation project to design open standards for containers
+
+OCI currently contains two specifications
+
+RUNTIME SPECIFICATIONS - It defines how to run OCI Image bundle as container
+IMAGE SPECIFICATION - It defines how to create OCI Image.
+
+HOW CLI WORKS
+
+Suppose you write docker run hello-world. It will first check that it is present in your local system or not.
+If it is not present in your local system then It will go to docker registry.
+It will pull and download the image from the registry, will run the image into container and says the command that is assigned to that image.
+
+
+
+BASIC DOCKER COMMANDS
+
+docker version - Clients and servers version of Docker
+docker images - Lists all docker images
+docker run (Image name/ID) - Runs a command in new container
+docker ps - Lists all running container
+docker start (container Name/ID) - starts the container
+docker kill (container Name/ID) - stops a running container
+docker rm (container Name/ID) - deletes a stopped container
+docker ps -a   - show all containers
+docker ps -l    - show latest created container
+docker pull - pulls image from register
+docker exec - runs a command in runtime container
+docker prune - removes all unused container, images etc.
+docker ls - lists all container
