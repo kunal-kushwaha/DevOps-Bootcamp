@@ -15,7 +15,7 @@ Benifits of YAML:
 - Most Languages use it
 - More powerful when representing complex data
 
-***Note: Any JSON input can be converted to YAML output and vice virse***
+***Note: Any JSON input can be converted to YAML output and vice versa***
 
 ### SYNTAX
 	
