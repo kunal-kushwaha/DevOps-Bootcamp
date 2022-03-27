@@ -1,0 +1,146 @@
+what is shell?
+--> shell is a command line interface , that will take  commands as input , interpret our commands and tell the operating system what to do 
+Types of Shell --> Bourne shell (sh),Korn shell (ksh),Bourne Again shell (bash),POSIX shell (sh),powershell
+Types of package managers --> yum , dnf ,apt , pip , dpkg ,npm , yarn , homebrew etc
+Types of commands ---> Exexutable programs , shell builtins , shell scripts , alias , to know more use type command (ex: type cd -- shell builtins)
+man , whatis[only for executable programs]---> display the user manual of any command that we can run on the terminal.
+To rename a file using special characters use '\' before every special charater , it is escape sequence 
+
+
+----------NETWORK COMMANDS:---------
+ifconfig - network interface configuration
+nslookup - find out the corresponding IP address or domain name system (DNS) record.
+netstat - Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
+ping - used for testing connectivity between two systems on a network
+tcpdump - used to capture and analyze TCP/IP packets transmitted or received over a network on a specific interface.
+dig
+nslookup -type=mx gmail.com
+nmcli ---> used for controlling NetworkManager
+traceroute/tracepath - prints a number of hops (router IPs) in that path you travel to reach the end server. 
+arp -a - manipulate the system ARP cache
+curl - used to download or upload data to a server via supported protocols such as HTTP, FTP, IMAP, SFTP, TFTP, IMAP, POP3, SCP, etc.
+ifup interface - actives a network interface, making it available to transfer and receive data.
+ifdown interface - disables a network interface, keeping it in a state where it cannot transfer or receive data.
+mtr -  combines the functionality of ping and traceroute 
+route - for displaying or manipulating the IP routing table of a Linux system.
+ss - investigate sockets. It dumps socket statistics and displays information similar to netstat. In addition, it shows more TCP and state information
+host example.com/ip - for carrying out DNS lookups, it translates hostnames to IP addresses and vice versa.
+firewalld - provides a way to configure dynamic firewall rules in Linux that can be applied instantly, without the need of firewall restart
+ufw (uncomplicated firewall) - It is used to enable/disable system firewall, add/delete/modify/reset packet filtering rules etc
+
+ 
+
+--------FILE SYSTEM COMMANDS------------
+whoami - print username
+mkdir - make directory
+rmdir - remove empty directory
+cd - change directory
+pwd - print working directory (shows full path name of your working directory) 
+find - find a file or folder (you have to install first)
+find . -type f mmin -20 = all the files whch are moified less than 20 mins ago
+echo - displaying lines of text or string which are passed as arguments on the command line(simply means display)
+echo $PATH - check wheather the executable file you order to print/open in command line present over here or not
+locate - used to find files by their filename
+ls -a - show hidden files
+ls -as - hidden file with size
+ls -l - long details
+touch - Creates a new file in the current working directory
+ls --help
+rm - remove file permanently
+rm -R - remove folder permanently
+rm -rf - it possible sometimes a file not get deleted in a folder because it is open thats why we use f (force) flag
+rm -rf . - this will remove everything from root directory (warning!)
+cat - displays file
+cat > "TEXT" CREATE FILE 
+cp - Copy SOURCE to DEST
+mv - move/rename files SOURCE to DEST (ex: mv names.txt randomdir(directory)) (mv names.txt rename.txt (reanme file))
+file - check type of a file
+tr - Translate, squeeze, and/or delete characters from standard input, writing to standard output.
+cat file.txt | tr a-z A-Z > upper.txt --> pipe character means output of the first file going to be the input of the second file, > - redirect the output
+
+***|TO EDIT COMMAND LINE INTERFACE USE PS1 OF bashrc FILE 
+***|IF YOU WANT TO EDIT PATH VARIABLE: nano ~/.bashprofile
+***|"." - current directory , ".." - previous directory
+
+sudo(superuser do)- for some commands we need administrative permission there we need sudo,sudo (superuser do) allows you to configure non-root users to run root level commands without being root. Access can be given by the root level administrator through configuration of the /etc/sudoers file.
+df- system's disk space usage
+df -T -BG - file system type with gigabyte blocks
+df --help
+du - shows disk usage statistics
+head - shows first few lines of any file 
+tail - shows last few lines of any file 
+diff - compare two files line by line
+chmod - used to change the access mode of a file (read-4,write-2,execute-1) for user/group(ex:sudo group)/other if the file is accessable by everybody 777(u=rwx,g=rwx,o=rwx)
+chown(change owner) - if i want to give some files root access [ex: sudo chown root upper.txt]
+history - list of all the commands we are using 
+alaias - 
+An alias lets you create a shortcut name for a command, file name, or any shell text. By using aliases, you save a lot of time when doing tasks you do frequently. You can create a command alias in zprofile through nano
+sort - sort text in a text file in differnt order  
+jobs - Jobs command is used to list the jobs that you are running in the background and in the foreground.
+wget - used for non-interactive download of files from theWeb.It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.
+sed - It is mainly used for text substitution , find & replace but it can also perform other text manipulations like insertion, deletion, search etc. With SED, we can edit complete files without actually having to open it.
+cut - cut out selected portion of each line of a particular file (ex: cut -c 1-2 example.txt)
+
+
+
+---------------------REGEX--------------------
+grep (global regular expression print) : grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.The grep command can search for a string in groups of files. When it finds a pattern that matches in more than one file, it prints the name of the file, followed by a colon, then the line matching the pattern.It is case sensitive
+uses: grep "string" filename
+grep -w : print the string with the whole line 
+grep -i : remove case sensitive
+grep -n : line number of the matched string
+grep -B : shows previous three lines that comes before matched string 
+grep -r : search for string in a file recursively
+grep -l : list path to the files containing matched string 
+grep -c : counts how many times the matched string is available 
+history | grep "cd" : list all commands include grep from history 
+
+
+
+---------------------SHORTCUT KEYS ----------------------
+ctrl+a = move to beginning 
+ctrl+e = move to end 
+ctrl+u = delete the entire line
+ctrl+k = remove everything after the cursor
+tab = auto completion
+to run commands from history use exclamation with the serial number
+use multiple commands in same line using semicolon:  ls;cd Desktop
+
+
+
+------------------ SYSTEM --------------------------
+top - processes that are running and how many cpu they are consuming 
+kill - kill a process that are running with process id 
+uname - prints the name, version and other details about the current machine and the operating system running on it (operating system commands)
+zip - zip a file , ex: zip files.zip comapanies.txt
+hostname - Hostname is used to display the system's DNS name, and to display or set its  hostname or NIS domain name.
+useradd,passwd - add new user
+userdel - delete user
+cat /etc/os-release - all the information about the operating system
+lscpu - print cpu information
+free - amount of free memory/ram
+vmstat - virtual memory stat
+id - shows id 
+getent - a common way to look up user details on Unix.
+lsof - list all open files 
+htop - In a nutshell, htop is a useful command-line tool in the Linux environment to determine the cause of load by each process. It is similar to Task Manager in the Windows OS environment. It can be used to troubleshoot and kill a process that is utilizing excessive server resources.show which processes are eating up all your resources
+ps aux - monitor processes running on your Linux system. A process is associated with any program running on your system, and is used to manage and monitor a program's memory usage, processor time, and I/O resources.
+
+
+
+-------------------- OPERATORS ----------------------
+& - run a comand in the background , so other commands can be executed 
+echo "first" && echo "second" - only when first command is successfull second command will run
+echo "first" || echo "second" - second command will only execute if first command fails
+rm -rf !(example.txt) - remove all the files except example.txt
+echo "hey" >> example.txt - example.txt will contain hey (append)
+echo "hey" > example.txt - it will overwrite other text with hey 
+echo "hey" && {echo "hi";echo "good"} - if hey executed echo hi , good (this is combination operator)
+
+
+
+
+
+
+
+~~~~ Created By Debankan ☺️
