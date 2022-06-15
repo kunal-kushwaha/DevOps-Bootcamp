@@ -4,11 +4,9 @@
 
 - <a href="https://www.youtube.com/KunalKushwaha?sub_confirmation=1" style="background-color:#FFFFFF;color:#000000;text-decoration:none">▶ Subscribe to our channel </a>
 
-- <a href="https://www.commclassroom.org/devops" style="background-color:#FFFFFF;color:#000000;text-decoration:none">🧑‍💻 Course website</a>
+- <a href="https://www.commclassroom.org/devops" style="background-color:#FFFFFF;color:#000000;text-decoration:none">👨‍💻 Course website</a>
  
 - <a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak" style="background-color:#FFFFFF;color:#000000;text-decoration:none">📂 Complete playlist</a>
-
-- <a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnojMGw6LDTkjs7avZ0f83Ap" style="background-color:#FFFFFF;color:#000000;text-decoration:none">🛠 DevOps tools playlist</a> 
 
 ## Connect with me
   <a href="https://twitter.com/kunalstwt">
@@ -19,9 +17,6 @@
   </a>&ensp;
   <a href="https://www.youtube.com/channel/UCBGOUQHNNtNGcGzVq5rIXjw">
   <img width="30px" src="https://i.pinimg.com/originals/46/02/cb/4602cbc18967da9c1eba7452905cd99b.png" />
-  </a>&ensp;
-  <a href="https://www.instagram.com/kunalsig/">
-    <img width="30px" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
   </a>&ensp;
   <a href="https://kunalkushwaha.com">
   <img width="30px" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png?auto=compress" />
