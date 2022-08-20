@@ -38,16 +38,6 @@ role:
 name: Kunal Kushwaha
 role: { age: 78, job: student}
 
-# pairs: keys may have duplicate values
-# !!pairs
-
-pair example: !!pairs
- - job: student
- - job: teacher
-
-# same as
-pair example: !!pairs [job: student, job: teacher]
-# this will be an array of hashtables
 
 # !!set will allow you to have unique values
 names: !!set
