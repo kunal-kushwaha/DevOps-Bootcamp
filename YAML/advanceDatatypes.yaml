@@ -14,9 +14,10 @@ sparse seq:
  - 
  - Null
  - sup
+---
 
 # nested sequence
-- 
+-
  - mango
  - apple
  - banana
@@ -24,16 +25,19 @@ sparse seq:
  - marks
  - roll num
  - date
+---
 
 # key: value pairs are called maps
 !!map
+fullname: Kunal Kushwaha
 
 # nested mappings: map within an map
 name: Kunal Kushwaha
 role:
   age: 78
   job: student
-  
+---
+
 # same as
 name: Kunal Kushwaha
 role: { age: 78, job: student}
@@ -44,6 +48,7 @@ role: { age: 78, job: student}
 pair example: !!pairs
  - job: student
  - job: teacher
+---
 
 # same as
 pair example: !!pairs [job: student, job: teacher]
@@ -79,6 +84,7 @@ person2:
   name: Rahul
   <<: *likes
   dislikes: berries
+---
 
 # this will look like
 person2:
