@@ -52,3 +52,5 @@
 <a href = "https://github.com/kunal-kushwaha/DevOps-Bootcamp/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=kunal-kushwaha/DevOps-Bootcamp"/>
 </a>
+
+Completed the tutorial.. many thanks for the amazing lecture bro!!!
