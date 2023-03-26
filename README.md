@@ -4,11 +4,11 @@
 
 - <a href="https://www.youtube.com/KunalKushwaha?sub_confirmation=1" style="background-color:#FFFFFF;color:#000000;text-decoration:none">▶ Subscribe to our channel </a>
 
-- <a href="https://www.commclassroom.org/devops" style="background-color:#FFFFFF;color:#000000;text-decoration:none">🧑‍💻 Course website</a>
+- <a href="https://wemakedevs.org/courses/devops" style="background-color:#FFFFFF;color:#000000;text-decoration:none">🧑‍💻 Course website</a>
  
 - <a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak" style="background-color:#FFFFFF;color:#000000;text-decoration:none">📂 Complete playlist</a>
 
-- <a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnojMGw6LDTkjs7avZ0f83Ap" style="background-color:#FFFFFF;color:#000000;text-decoration:none">🛠 DevOps tools playlist</a> 
+<!-- - <a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnojMGw6LDTkjs7avZ0f83Ap" style="background-color:#FFFFFF;color:#000000;text-decoration:none">🛠 DevOps tools playlist</a>  -->
 
 ## Connect with me
   <a href="https://twitter.com/kunalstwt">
