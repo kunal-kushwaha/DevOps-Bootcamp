@@ -48,7 +48,6 @@
   <img width="30px" src="https://i.pinimg.com/originals/46/02/cb/4602cbc18967da9c1eba7452905cd99b.png" />
   </a>
   
-## Thanks to all the contributors ❤️
-<a href = "https://github.com/kunal-kushwaha/DevOps-Bootcamp/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=kunal-kushwaha/DevOps-Bootcamp"/>
-</a>
+
+
+Pratyush feels that your Devops course is amazing
