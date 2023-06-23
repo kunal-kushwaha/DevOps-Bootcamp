@@ -1,4 +1,4 @@
-# 🔥DevOps-Bootcamp
+# 🔥DevOps-Bootcamp is awesome
 
 ![DevOps-Bootcamp](https://socialify.git.ci/kunal-kushwaha/DevOps-Bootcamp/image?description=1&font=Inter&language=1&owner=1&pattern=Charlie%20Brown&theme=Dark)
 
@@ -52,3 +52,4 @@
 <a href = "https://github.com/kunal-kushwaha/DevOps-Bootcamp/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=kunal-kushwaha/DevOps-Bootcamp"/>
 </a>
+- Mohammed Yunus says that this repository has good notes
