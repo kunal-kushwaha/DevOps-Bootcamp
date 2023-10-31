@@ -6,7 +6,7 @@ student: !!seq
 # like this also
 cities: [new delhi, mumbai]
 
-# some of the keys of the seq will be empty
+# some of the variables of the seq will be empty
 # sparse seq
 sparse seq:
  - hey
