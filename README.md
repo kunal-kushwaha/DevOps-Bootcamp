@@ -4,4 +4,4 @@
 - [Course website](https://wemakedevs.org/courses/devops)
 - [Connect with me](http://kunalkushwaha.com)
 # Just For Test
-- Merge Conflicts
+- Merge Conflicts - GH
